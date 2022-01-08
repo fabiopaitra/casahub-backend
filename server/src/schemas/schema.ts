@@ -1,6 +1,6 @@
 import { buildSchema } from 'graphql';
 
-export default buildSchema(`
+export default buildSchema(`#graphql
   type TestData {
     text: String!
     views: Int!
